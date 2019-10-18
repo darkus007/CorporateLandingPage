@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Exo';
+    font-display: swap;
+    src: local('Exo-Medium'),
+        url('../fonts/Exo-Medium.woff2') format('woff2'),
+        url('../fonts/Exo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
