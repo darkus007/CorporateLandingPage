@@ -1,0 +1,44 @@
+.features {
+    min-height: 675px;
+    padding-top: 135px;
+    padding-bottom: 184px;
+    background-color: #f6f5f3;
+    top:-15px;
+    position: relative;
+    overflow: hidden;  /* скрывает элементы выходящие за блок */
+    &__wrapper {
+        margin-top: 91px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__item {
+        width: 342px;
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__header {
+            margin-top: 30px;
+            font-size: 22px;
+            line-height: 2.27;
+            letter-spacing: 0.88px;
+            color: #282828;
+        }
+    }
+    &__pen-holder {
+        position: absolute;
+        left: -65px;
+        top: -150px;
+    }
+    &__earphones {
+        position: absolute;
+        top:-150px;
+        right: 0;
+    }
+    &__cup {
+        position: absolute;
+        right: -120px;
+        bottom: -204px;
+    }
+}

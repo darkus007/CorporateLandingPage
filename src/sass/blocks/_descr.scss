@@ -1,0 +1,20 @@
+.descr {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.64px;
+    text-align: left;
+    color: rgba(40, 40, 40, 0.66);
+    &_mt45 {
+        margin-top: 45px;
+    }
+    &_mt19-cntr {
+        margin-top: 19px;
+        text-align: center;
+    }
+    &_mt36 {
+        margin-top: 36px;
+    }
+}

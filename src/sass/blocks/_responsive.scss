@@ -1,0 +1,26 @@
+.responsive {
+    position: relative;
+    padding: 93px 0 90px 0;
+    height: 550px;
+    //overflow: hidden;  /* скрывает элементы выходящие за блок */
+    &_img {
+        position: absolute;
+        left: -105px;
+    }
+    &__wrapper {
+        position: relative;
+        width: 500px;
+        margin-left: 586px;
+        padding-top: 48px;
+    }
+    &__bg-pink {
+        position: relative;
+        left: 0;
+        top: -193px;
+        width: 0;
+        height: 0;
+        border-bottom: 650px solid rgba(251, 134, 134, .8); 
+        border-right: 650px solid transparent;
+        z-index: -1;
+    }
+}

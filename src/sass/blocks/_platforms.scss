@@ -1,0 +1,31 @@
+.platforms {
+    min-height: 724px;
+    &__item {
+        width: 727px;
+        height: 723px;
+        padding: 171px 152px 164px 0;
+        background-color: #fff;
+    }   
+    &__bg {
+        width: 50%;
+        height: 724px;
+        background-color: #fff;
+        &__wrapper {
+            display: flex;
+            justify-content: center;
+        }
+        &_gray {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            width: 50%;
+            background-color: #ececec;
+            &_pink {
+                width: 0;
+                height: 0;
+                border-bottom: 510px solid rgba(251, 134, 134, .8);
+                border-left: 573px solid transparent;
+            }
+        }
+    }
+}
