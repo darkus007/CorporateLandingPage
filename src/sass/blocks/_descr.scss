@@ -24,4 +24,17 @@
         text-align: center;
         width: 650px;
     }
+    &_signup {
+        display: flex;
+        justify-content: center;
+        margin-top: 52px;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: left;
+        color: rgba(246, 245, 243, 0.6);
+        & a {
+            color: rgba(246, 245, 243, 0.6);
+            text-decoration: underline;
+        }
+    }
 }
