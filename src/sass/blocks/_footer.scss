@@ -1,0 +1,107 @@
+.footer {
+    position: relative;
+    min-height: 344px;
+    &__wrapper {
+        margin-top: 94px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__items {
+        &_w245 {
+            width: 245px;
+        }
+        &_w88 {
+            width: 88px;
+        }
+        &_w104 {
+            width: 104px;
+        }
+        &_w264 {
+            width: 264px;
+        }
+        & ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 2.14;
+            letter-spacing: 0.56px;
+            text-align: left;
+            & a {
+                text-decoration: none;
+                color: rgba(40, 40, 40, 0.66);
+                transition: 0.2s all;
+                &:hover {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    &__header {
+        padding-bottom: 25px;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        color: #282828;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.86;
+        letter-spacing: 0.56px;
+        text-align: left;
+        color: rgba(40, 40, 40, 0.56);
+    }
+    &__input {
+        padding: 0 29px;
+        width: 207px;
+        height: 49px;
+        border-radius: 3px;
+        border: solid 1px #4e4e5e;
+        background-color: rgba(246, 246, 246, 0.4);
+        &::placeholder {
+            font-size: 16px;
+            font-weight: normal;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.4);
+        }
+    }
+    &__btn {
+        position: relative;
+        left: -5px;
+        width: 52px;
+        height: 49px;
+        border-radius: 3px;
+        box-shadow: 0px 3px 3px 0 rgba(14, 15, 15, 0.25);
+        border: solid 1px $main-color;
+        background-color: $main-color;
+    }
+    &__social {
+        margin-top: 19px;
+        display: flex;
+        justify-content: center;
+        & a {
+            text-decoration: none;
+        }
+        & span {
+            margin: 0 14px;
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 21px;
+            transition: 0.2s all;
+            &:hover {
+                color: $main-color;
+            }
+        }
+    }
+    &__bg-pink {
+        position: relative;
+        width      : 0;
+        height     : 0;
+        left: 100%;
+        transform: translateX(-100%);
+        top: 0;
+        border-top : 344px solid #ff8a8a;
+        border-left: 344px solid transparent;
+        z-index: -1;
+    }
+}
